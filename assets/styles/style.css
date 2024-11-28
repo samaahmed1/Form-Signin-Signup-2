@@ -38,3 +38,11 @@ img {
     width: 1170px;
   }
 }
+header{
+  padding: 20px 0;
+}
+header .logo{
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--black);
+}
