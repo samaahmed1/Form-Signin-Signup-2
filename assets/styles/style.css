@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black: black;
+  --stroke: #878787;
+  --gray: #ababab;
+  --white: white;
+  --input-stroke: #282828;
+}
