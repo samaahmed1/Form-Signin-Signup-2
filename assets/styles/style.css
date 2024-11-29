@@ -128,9 +128,15 @@ header .logo{
 .content .container .form p a{
   color: var(--black);
 }
+.content .container .image{
+  width: 60%;
+}
 @media(max-width:992px){
   .content .container{
-    justify-content:center;
+    display: block;
+  }
+  .content .container .image img{
+    display: none;
   }
   .content .container .form{
     width: 100%;
