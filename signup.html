@@ -13,6 +13,43 @@
   <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-
+  <header>
+    <div class="container">
+     <a class="logo" href="#">Your Logo</a>
+    </div>
+  </header>
+  <main>
+    <section class="content">
+      <div class="container">
+        <div class="form">
+          <span class="welcome-message">Welcome !</span>
+          <h1>Sign up to </h1>
+          <h2>Lorem Ipsum is simply </h2>
+            <form method="post">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Enter your email" required autofocus>
+              <label for="user-name">User Name</label>
+              <input type="text" id="user-name" class="user-name" name="user-name" placeholder="Enter your user name" required>
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+              <label for="confrim-password">Confrim Password</label>
+              <input type="password" id="confrim-password" name="confrim-password" placeholder="Confrim your Password" required>
+              <div class="option">
+                <div class="check">
+                <input type="checkbox" id="remember">
+                <label for="remember">Rememeber me</label>
+                </div>
+                <a href="#">Forgot password ?</a>
+              </div>
+              <input type="submit" value="Login" class="login">
+            </form>
+            <p>Don't have an Account ? <a href="index.html">Register</a></p>
+        </div>
+        <div class="image">
+          <img src="assets/images/small-team.png" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
