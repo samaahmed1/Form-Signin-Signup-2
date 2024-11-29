@@ -39,10 +39,101 @@ img {
   }
 }
 header{
-  padding: 20px 0;
+  padding: 20px 0 40px 0;
 }
 header .logo{
   font-weight: 600;
   font-size: 20px;
   color: var(--black);
 }
+.content .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .container .form{
+  width: 40%;
+  padding: 41px;
+  border: 0.5px solid var(--stroke);
+  border-radius: 10px;
+}
+.content .container .form .welcome-message{
+  display: block;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 300;
+}
+.content .container .form h1{
+  font-size: 31px;
+  font-weight: 500;
+}
+.content .container .form h2{
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.content .container .form form{
+  width: 100%;
+}
+.content .container .form form label{
+ display: block;
+ margin-bottom: 9px;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+}
+.content .container .form form input{
+ display: block;
+ width: 100%;
+ padding: 15px;
+ margin-bottom: 20px;
+ outline: none;
+ border-radius: 6px;
+ border: var(--input-stroke) .6px solid;
+}
+.content .container .form form .option{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.content .container .form form .option .check input{
+ display: inline;
+ width: fit-content;
+}
+.content .container .form form .option .check label{
+ display: inline;
+ font-size: 13px;
+ font-weight: 300;
+}
+.content .container .form form .option a{
+ font-size: 12px;
+ font-weight: 300;
+ color: var(--stroke);
+}
+.content .container .form form .login{
+  background-color: var(--black);
+  color: var(--white);
+  margin-bottom: 30px;
+  transition:  background-color .3s ease-in-out ;
+}
+.content .container .form form .login:hover{
+  background-color: #000000cd;
+}
+.content .container .form p{
+  text-align: center;
+  color: var(--stroke);
+  font-size: 16px;
+  font-weight: 500;
+}
+.content .container .form p a{
+  color: var(--black);
+}
+@media(max-width:992px){
+  .content .container{
+    justify-content:center;
+  }
+  .content .container .form{
+    width: 100%;
+  }
+}
+
